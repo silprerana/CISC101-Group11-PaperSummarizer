@@ -1,0 +1,1 @@
+The modules contain instructions on how to summarize a paper using an LLM. Each module reflects a piece of the instructions so all modules must be viewed in order to have a proper understanding of the project. The system prompt is the base prompt to the project and can be edited if needed. Thank you!
