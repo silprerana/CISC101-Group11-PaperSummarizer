@@ -1,0 +1,7 @@
+Apply these if/else checks to make sure the summaries are following guidelines:
+
+For a missing or empty section --> skip over the section and move onto the next section
+Section summary becomes more than 50 words --> re-summarize so it fits within 50-word count limit
+Unified summary word count exceeds limit --> Shorten to fit word count given by user
+If output has extra sections (not present in the paper) --> delete the sections
+If paper exceeds token limit --> inform the user that the paper is being truncated
