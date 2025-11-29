@@ -1,4 +1,11 @@
+Change Log: Adding two new conditions for summarizer 
+
 Apply these if/else checks to make sure the summaries are following guidelines:
+
+If evidence_mode = "strict,then The summarizer should: Only include claims, equations, and results that appear in the provided text.
+If it cannot find enough information, it must say so explicitly
+If section is missing / empty, then output “Section skipped: no usable text was provided.”
+If section is too short (< 50 words), then “Section very short: summary may be incomplete.”
 
 For a missing or empty section --> skip over the section and move onto the next section
 Section summary becomes more than 50 words --> re-summarize so it fits within 50-word count limit
