@@ -1,5 +1,8 @@
-Summarization process
+Change Log: We added two statements so the sumammry can support for two types of paragraphs.
 
+Summarization process
+If the summary_level = "short", then using 1–2 sentence summary per section
+If the summary_level = "detailed", then A short paragraph plus a bullet list of 3–5 key points for each section
 For each section summarize, check constraints
 Summary of each section of the paper must be in bullet points (Create expert version and layperson version separately)
 The final unified summary of the entire research paper can be a short paragraph
